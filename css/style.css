@@ -72,7 +72,7 @@ body {
 
 
 .my-projects {
-    margin: 0 0 50px 0;     
+    margin: 0 0 30px 0;     
 }
 
 .my-projects__list {
@@ -89,23 +89,23 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #595959;
+    color: #494949;
     margin-left: 5px;
 }
 
 .my-projects__link {
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 24px;
-    color: #595959;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #494949;
 }
 
 .my-projects__bracket {
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     color: #000;  
 }
 
@@ -113,7 +113,7 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1.71;
     color: #000;  
 }
 
@@ -127,7 +127,7 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
-    line-height: 20px;
+    line-height: 1.25;
     margin: 0 0 10px 10px;
 }
 
@@ -135,7 +135,7 @@ body {
     font-style: normal;
     font-weight: bold;
     font-size: 14px;
-    line-height: 17px;
+    line-height: 1.21;
     color: #000000;
 }
 
@@ -324,3 +324,43 @@ margin: 50px 0 0 40px;
     color: rgba(251, 109, 58, 0.8);
     box-shadow: 0px 1px 1px #FB6D3A;
 }
+
+/* social_section */
+
+.team-box {
+    display: block;
+
+}
+.team-box__social {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    }
+  
+.team-box__icon {
+    display: flex;
+    justify-content: center;
+      align-items: center;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      padding: 0;
+      background-color: #ffffff;
+      fill: #FB6D3A;
+      transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}  
+.team-box__icon:hover,
+.team-box__icon:focus {
+        background-color: #928f8f;
+        fill: #FFF;  
+      }
+    
+  
+.team-box__list:not(:last-child) {
+      margin-right: 35px;
+    }
+
+  
